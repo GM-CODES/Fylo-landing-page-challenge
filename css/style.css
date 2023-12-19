@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+  --Bright-Blue: hsl(224, 93%, 58%);
+  --Moderate-Cyan: hsl(170, 45%, 43%);
+  --Light-Grayish-Blue: hsl(240, 75%, 98%);
+  --Light-Gray: hsl(0, 0%, 75%);
+  --White: 	hsl(0, 0%, 100%);
+}
+
+/* Utilities */
+#navbar, a, h1, h2, h3, h4, h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Main stlyling */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--White);
+}
+
+#navbar {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navbar img {
+  max-width: 130px;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li a {
+  padding: 20px;
+  margin: 5px;
+}
+
+header {
+  padding: 0 50px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+header .header-content h1 {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  margin-bottom: 20px;
+}
+
+header .header-content p {
+  width: 520px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+header .header-content form #email {
+  padding: 15px;
+  width: 300px;
+  border: 2px solid #ddd;
+}
+
+header .header-content form button {
+  padding: 15px 50px;
+  background: var(--Bright-Blue);
+  color: var(--White);
+  border: none;
+}
+
+header .header-content form button:hover {
+  background: hsl(224, 75%, 72%);
+}
+
+header img {
+  width: 600px;
+}
+
+#main {
+  padding: 100px 50px;
+  background: url('../images/bg-curve-desktop.svg') no-repeat center center/cover;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main .main-content .description h1 {
+  font-size: 2.3rem;
+  margin-bottom: 40px;
+}
+
+#main .main-content .description p {
+  margin-bottom: 20px;
+  width: 500px;
+  color: #333;
+  font-weight: bold;
+}
+
+#main .main-content .description a {
+  color: var(--Moderate-Cyan);
+  text-align: center;
+  font-weight: 400;
+}
+
+#main .main-content .description a:hover {
+  color: hsl(170, 42%, 58%);
+}
+
+#main .main-content .description .border {
+  height: 1px;
+  width: 160px;
+  background-color: var(--Moderate-Cyan);
+  margin-top: 3px;
+}
+
+#main .main-content .testimonial {
+  height: 200px;
+  width: 320px;
+  background: var(--White);
+  padding: 20px 30px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 40px;
+  box-shadow: 0 0 5px 3px #ddd;
+}
+
+#main .main-content .testimonial img {
+  margin-bottom: 5px;
+}
+
+#main .main-content .testimonial p {
+  line-height: 1.2rem;
+}
+
+#main .main-content .testimonial .owner {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#main .main-content .testimonial .owner img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+#main .main-content .testimonial .owner ul {
+  margin-left: 8px;
+}
+
+#main .main-content .testimonial .owner ul li {
+  padding: 2px 0;
+}
+
+#main .main-content .testimonial .owner ul li:nth-child(2) {
+  font-weight: bold;
+  font-size: 0.55rem;
+}
+
+#main img {
+  max-width: 550px;
+}
+
+#access {
+  width: 100%;
+  background:rgb(0, 1, 51, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 50%;
+  padding: 50px 30px;
+  color: #fff;
+}
+
+#access .access-detail {
+  width: 50%;
+  padding: 50px;
+}
+
+#access .access-detail h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+#access .access-detail p {
+  font-size: 0.85;
+  color: #ddd;
+  width: 470px;
+  line-height: 1.5rem;
+}
+
+#access .submission {
+  width: 50%;
+  padding: 50px;
+  justify-content: center;
+}
+
+#access .submission form #email {
+  padding: 15px;
+  width: 90%;
+  border: none;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+
+#access .submission form button {
+  padding: 15px 30px;
+  background: var(--Bright-Blue);
+  color: var(--White);
+  border: none;
+  border-radius: 3px;
+}
+
+#access .submission form button:hover {
+  background: hsl(224, 75%, 72%);
+}
+
+#access .submission {
+  justify-content: center;
+}
+
+#access .submission form input {
+  display: block;
+}
+
+#contact {
+  background: #000133;
+  color: #fff;
+  padding: 100px 70px;
+}
+
+#contact img {
+  max-width: 130px;
+}
+
+#contact .contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  margin-top: 15px;
+  padding-right: 150px;
+}
+
+#contact .contact-info ul li {
+  padding: 8px;
+}
+
+#contact .contact-info ul li a {
+  color: var(--White);
+}
+
+#contact .contact-info ul li a:hover {
+  color: hsl(224, 75%, 72%);
+}
+
+#contact .contact-info ul li a img {
+  margin-right: 10px;
+  max-width: 15px;
+}
+
+#contact .contact-info .socials a {
+  color: var(--White);
+  padding: 7px;
+  border: 1px solid var(--White);
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+#contact .contact-info .socials a:hover {
+  color: hsl(224, 75%, 72%);
+  border: 1px solid hsl(224, 75%, 72%);
+}
