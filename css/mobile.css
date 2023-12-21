@@ -1,0 +1,186 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+body {
+  max-width: 100vw;
+}
+
+#container {
+  max-width: 100%;
+  margin: auto;
+}
+
+#navbar {
+  max-width: 100%;
+  padding: 30px 20px;
+}
+
+#navbar img {
+  max-width: 80px;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  margin: 3px;
+  font-size: 0.85rem;
+}
+
+/* Main */
+header {
+  padding: 20px;
+  margin: auto;
+  display: grid;
+  grid-auto-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 40px;
+  margin-bottom: 50px;
+}
+
+header .header-content {
+  order: 2;
+  max-width: 330px;
+  text-align: center;
+}
+
+header img {
+  order: 1;
+  max-width: 320px;
+}
+
+header .header-content h1 {
+  color: #000133;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 20px;
+}
+
+header .header-content p {
+  max-width: 320px;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+header .header-content form #email {
+  width: 320px;
+  margin-bottom: 10px;
+}
+
+header .header-content form button {
+  width: 320px;
+}
+
+/* Main */
+#main {
+  padding: 75px 20px;
+  margin: auto;
+  background: url('../images/bg-curve-mobile.svg') no-repeat center center/cover;
+  display: grid;
+  grid-auto-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 40px;
+}
+
+#main .main-content {
+  order: 2;
+  width: 320px;
+}
+
+#main img {
+  order: 1;
+  max-width: 320px;
+}
+
+#main .main-content .description h1 {
+  text-align: center;
+  color: #000133;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+#main .main-content .description p {
+  max-width: 320px;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+#main .main-content .description .how {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 3px;
+}
+
+/* Access */
+#access {
+  margin: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+#access .access-detail {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+#access .access-detail h2 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+#access .access-detail p {
+  max-width: 320px;
+}
+
+#access .submission {
+  width: 100%;
+  padding: 0 30px;
+}
+
+#access .submission form #email {
+  width: 100%;
+}
+
+#access .submission form button {
+  width: 100%;
+}
+
+/* Contact */
+#contact {
+  padding: 50px 30px;
+}
+
+#contact .contact-info {
+  display: block;
+  padding-right: 0;
+}
+
+#contact .contact-info .socials {
+  text-align: center;
+}
+
+#contact .contact-info {
+  margin-top: 20px;
+}
+
+#contact .contact-info .info-1 {
+  margin: 20px 0;
+}
+
+#contact .contact-info .info-2 {
+  margin-bottom: 20px;
+}
+
+#contact .contact-info .socials {
+  margin-top: 50px;
+}
